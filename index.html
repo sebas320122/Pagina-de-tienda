@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WASD - Teclados custom</title>
+
+    <link rel="stylesheet" href="estilos/inicio.css" />
+    <script
+      src="https://kit.fontawesome.com/dcee0302ab.js" crossorigin="anonymous"
+    ></script>
+    <script defer src="scripts/inicio.js"></script>
+    
+  </head>
+  <body>
+    <!--Menu-->
+    <header class="header">
+      <nav class="nav">
+        <a  class="logo nav-link">WASD</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link nav-link" id="item-actual">Inicio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="ubicacion.html" class="nav-menu-link nav-link">Ubicación</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="proceso.html" class="nav-menu-link nav-link">Proceso</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="informacion.html" class="nav-menu-link nav-link"
+              >Información</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <!--Slider-->
+      <div class="container-slider">
+      <div class="slider" id="slider">
+        <div class="slider__section">
+          <img src="imagenes/inicio-s1.png" alt="" class="slider__img">
+        </div>
+        <div class="slider__section">
+          <img src="imagenes/inicio-s2.png" alt="" class="slider__img">
+        </div>
+        <div class="slider__section">
+          <img src="imagenes/inicio-s3.jpg" alt="" class="slider__img">
+        </div>
+      </div>
+      <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
+      <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+      </div>
+      
+
+      <!--Imagenes-->
+      <div class="img_group1">
+        <img src="imagenes/switches.png" id="img_group1-img1">
+        <img src="imagenes/keycaps.png" id="img_group1-img2">
+      </div>
+      <div class="img_group2">
+        <img src="imagenes/pcb.png" id="img_group2-img1">
+        <img src="imagenes/case.png" id="img_group2-img2">
+      </div>
+      <script src="scripts/inicio-s.js"></script>
+    </main>
+    
+  </body>
+</html>
